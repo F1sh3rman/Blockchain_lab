@@ -8,7 +8,7 @@ oldPath: [Field; 8],
 oldRoot:   pub Field,
 newRoot:   pub Field,
 commitment:pub Field,
-index:     pub Field,     // no spaces in a parameter name
+index:     pub Field,     
 ) {
     let ZERO_LEAF: Field = (0x18d85f3de6dcd78b6ffbf5d8374433a5528d8e3bf2100df0b7bb43a4c59ebd63);
     let calc_commitment = pedersen_hash([id, r]);
